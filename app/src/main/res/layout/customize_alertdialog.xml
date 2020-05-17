@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="190dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/custom_alertdialog_update"
+    android:orientation="vertical"
+    app:layout_constraintCircleRadius="10dp">
+
+
+    <TextView
+        android:id="@+id/txt_dia3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:text="به روز رسانی"
+        android:textColor="#D81B60"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:text="نسخه جدید اپلیکیشن کامور دینا موجود است آیا مایلید به روز رسانی کنید"
+        android:textColor="#D81B60"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/custombutton"
+            android:clickable="true"
+            android:text="خیر"
+            android:textColor="#D81B60"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/custombutton"
+            android:clickable="true"
+            android:text="بله"
+            android:textColor="#D81B60"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

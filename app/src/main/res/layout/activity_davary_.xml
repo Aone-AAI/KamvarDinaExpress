@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Davary_Activity"
+    android:orientation="vertical"
+    android:id="@+id/davary_layout"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/site_image"
+                android:id="@+id/ImageView"/>
+            <EditText
+                android:id="@+id/adadNimOrsh"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/colorBlack"
+                android:hint="مبلغ مورد نظر را به ریال وارد کنید"
+                android:textColorHint="@color/colorBlack"
+                android:inputType="number"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:id="@+id/mohasebeh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="محاسبه حق الزحمه داوری"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/adadNahaei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

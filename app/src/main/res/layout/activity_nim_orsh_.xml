@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".nimOrsh_Activity"
+    android:id="@+id/nimOrsh_layout">
+
+
+    <RelativeLayout
+        android:id="@+id/example"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/site_image"
+        android:gravity="center">
+
+
+
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/adadNimOrsh"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="270dp"
+        android:textColor="@color/colorBlack"
+        android:hint="مبلغ مورد نظر را به ریال وارد کنید"
+        android:textColorHint="@color/colorBlack"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/mohasebeh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="محاسبه نیم عشر" />
+    <TextView
+        android:id="@+id/adadNahaei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="450dp"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

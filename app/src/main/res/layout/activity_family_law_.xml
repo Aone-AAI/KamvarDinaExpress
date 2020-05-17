@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Family_law_Activity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:layout_editor_absoluteX="-81dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+<!--            <Button-->
+<!--                android:id="@+id/ghanon_tegarat"-->
+<!--                android:layout_width="300dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="60dp"-->
+<!--                android:background="@drawable/custombutton"-->
+<!--                android:clickable="true"-->
+<!--                android:onClick="thabtAsnad"-->
+<!--                android:text="ثبت اسناد و املاک"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="#D81B60"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/guideline2"-->
+<!--                app:layout_constraintHorizontal_bias="0.569"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/guideline"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/guideline3"-->
+<!--                app:layout_constraintVertical_bias="0.06"-->
+<!--                tools:ignore="OnClick" />-->
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:barrierDirection="left" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.09" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.91" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.05" />
+
+<!--            <Button-->
+<!--                android:id="@+id/tegarat_electronic"-->
+<!--                android:layout_width="300dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="28dp"-->
+<!--                android:background="@drawable/custombutton"-->
+<!--                android:clickable="true"-->
+<!--                android:onClick="ahvalThabt"-->
+<!--                android:text="ثبت احوال"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="#D81B60"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/guideline2"-->
+<!--                app:layout_constraintHorizontal_bias="0.522"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/guideline"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/ghanon_tegarat"-->
+<!--                tools:ignore="OnClick" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button"-->
+<!--                android:layout_width="300dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="28dp"-->
+<!--                android:layout_marginBottom="28dp"-->
+<!--                android:background="@drawable/custombutton"-->
+<!--                android:clickable="true"-->
+<!--                android:onClick="sherkatThabt"-->
+<!--                android:text="قوانین ثبت شرکت"-->
+<!--                android:textColor="#D81B60"-->
+<!--                app:layout_constraintBottom_toTopOf="@+id/button2"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/guideline2"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/guideline"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/tegarat_electronic"-->
+<!--                tools:ignore="OnClick" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button2"-->
+<!--                android:layout_width="300dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginBottom="384dp"-->
+<!--                android:background="@drawable/custombutton"-->
+<!--                android:clickable="true"-->
+<!--                android:onClick="ekhteraa"-->
+<!--                android:text="قانون ثبت اختراعات ، طرح های صنعتی و علائم تجاری"-->
+<!--                android:textColor="#D81B60"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/guideline2"-->
+<!--                app:layout_constraintHorizontal_bias="0.497"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/guideline"-->
+<!--                tools:ignore="OnClick" />-->
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="65dp"
+        android:onClick="ezdevajmardanbaAvareha"
+        android:text="ائین نامه ازدواج مردان ایرانی با زنان خارجی آواره"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        android:layout_gravity="center"
+        android:background="@drawable/custombutton"
+        android:textColor="#D81B60"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="قانون اجازه رعایت احوال شخصیه ایرانیان غیرشیعه"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        android:layout_gravity="center"
+        android:background="@drawable/custombutton"
+        android:textColor="#D81B60"
+        android:layout_marginTop="28dp"
+        android:onClick="ghireshiee"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="قانون حمایت از خانواده"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        android:layout_gravity="center"
+        android:background="@drawable/custombutton"
+        android:textColor="#D81B60"
+        android:layout_marginTop="28dp"
+        android:onClick="hemaiatkhanevadeh"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="قانون راجع به تعیین قیم موقت"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        android:layout_gravity="center"
+        android:background="@drawable/custombutton"
+        android:textColor="#D81B60"
+        android:layout_marginTop="28dp"
+        android:onClick="ghaimemovaghat"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="قانون حمایت از کودکان بی سرپرست و بد سرپرست"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        android:layout_gravity="center"
+        android:background="@drawable/custombutton"
+        android:textColor="#D81B60"
+        android:layout_marginTop="28dp"
+        android:onClick="kodakanbisarparast"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="قانون راجع به رشد متعاملین"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        android:layout_gravity="center"
+        android:background="@drawable/custombutton"
+        android:textColor="#D81B60"
+        android:layout_marginTop="28dp"
+        android:onClick="roshdemotahlin"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="قانون راجع به خیانت ولی قهری"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/button11"
+        android:layout_gravity="center"
+        android:background="@drawable/custombutton"
+        android:textColor="#D81B60"
+        android:layout_marginTop="28dp"
+        android:onClick="khiant"
+        tools:ignore="OnClick" />
+    <Button
+                android:id="@+id/button13"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="قانون نحوه اجرای محکومیتهای مالی"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/button12"
+        android:layout_gravity="center"
+        android:background="@drawable/custombutton"
+        android:textColor="#D81B60"
+        android:layout_marginTop="28dp"
+        android:onClick="egraeimahkomiat"
+        tools:ignore="OnClick" />
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="قانون سقط درمانی"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/button13"
+                android:layout_gravity="center"
+                android:background="@drawable/custombutton"
+                android:textColor="#D81B60"
+                android:layout_marginTop="28dp"
+                android:onClick="sedghdarmani"
+                tools:ignore="OnClick" />
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="قانون نحوه اهدا جنین"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/button14"
+                android:layout_gravity="center"
+                android:background="@drawable/custombutton"
+                android:textColor="#D81B60"
+                android:layout_marginTop="28dp"
+                android:onClick="ehdaeijanin"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="نحوه محاسبه ارزش مهریه به وجه رایج کشور"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/button15"
+                android:layout_gravity="center"
+                android:background="@drawable/custombutton"
+                android:textColor="#D81B60"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="65dp"
+                android:onClick="mohasebmehrieh"
+                tools:ignore="OnClick" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

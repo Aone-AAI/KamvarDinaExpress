@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ghanon_Assasi_Activity">
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ghanonAssasi">
+
+    </com.github.barteksc.pdfviewer.PDFView>
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:foregroundGravity="right">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_gravity="right"-->
+<!--            android:gravity="right"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:id="@+id/faslAval_ghanonAssasi_main_title"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="0dp"-->
+<!--                android:layoutDirection="rtl"-->
+<!--                android:paddingRight="40dp"-->
+<!--                android:paddingTop="40dp"-->
+<!--                android:paddingBottom="20dp"-->
+<!--                android:text="@string/ghanon_assasi_main_title"-->
+<!--                android:textColor="@color/colorAccent"-->
+<!--                android:textDirection="rtl" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:id="@+id/faslAval_ghanonAssasi_main"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="0dp"-->
+<!--                android:layoutDirection="rtl"-->
+<!--                android:paddingRight="40dp"-->
+<!--                android:paddingTop="20dp"-->
+<!--                android:paddingBottom="20dp"-->
+<!--                android:text="@string/fasleaval_osol_koli_asl_aval"-->
+<!--                android:textColor="@color/colorAccent"-->
+<!--                android:textDirection="rtl" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:id="@+id/faslAval_ghanonAssasi_aslaval_main"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="0dp"-->
+<!--                android:layoutDirection="rtl"-->
+<!--                android:paddingRight="40dp"-->
+<!--                android:paddingTop="20dp"-->
+<!--                android:paddingBottom="20dp"-->
+<!--                android:paddingLeft="20dp"-->
+<!--                android:text="@string/fasleaval_osol_koli_asl_aval_main"-->
+<!--                android:textColor="@color/colorBlack"-->
+<!--                android:textDirection="rtl"-->
+<!--                android:fontFamily=""-->
+<!--                />-->
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:id="@+id/aseldovaom"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="0dp"-->
+<!--                android:layoutDirection="rtl"-->
+<!--                android:paddingRight="40dp"-->
+<!--                android:paddingTop="20dp"-->
+<!--                android:paddingBottom="20dp"-->
+<!--                android:paddingLeft="20dp"-->
+<!--                android:text="@string/faslaval_osol_koli_asl_dovom"-->
+<!--                android:textColor="@color/colorAccent"-->
+<!--                android:textDirection="rtl"-->
+
+<!--                />-->
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:id="@+id/aseldovaom_main"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="0dp"-->
+<!--                android:layoutDirection="rtl"-->
+<!--                android:paddingRight="40dp"-->
+<!--                android:paddingTop="20dp"-->
+<!--                android:paddingBottom="20dp"-->
+<!--                android:paddingLeft="20dp"-->
+<!--                android:text="@string/faslaval_osol_koli_asl_dovom_main"-->
+<!--                android:textColor="@color/colorBlack"-->
+<!--                android:textDirection="rtl"-->
+<!--                />-->
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:id="@+id/aselsevom"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="0dp"-->
+<!--            android:layoutDirection="rtl"-->
+<!--            android:paddingRight="40dp"-->
+<!--            android:paddingTop="20dp"-->
+<!--            android:paddingBottom="20dp"-->
+<!--            android:paddingLeft="20dp"-->
+<!--            android:text="@string/aslesevom"-->
+<!--            android:textColor="@color/colorAccent"-->
+<!--            android:textDirection="rtl"-->
+<!--            />-->
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:id="@+id/aselsevom_main"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="0dp"-->
+<!--                android:layoutDirection="rtl"-->
+<!--                android:paddingRight="40dp"-->
+<!--                android:paddingTop="20dp"-->
+<!--                android:paddingBottom="20dp"-->
+<!--                android:paddingLeft="20dp"-->
+<!--                android:text="@string/aslesevom_main"-->
+<!--                android:textColor="@color/colorBlack"-->
+<!--                android:textDirection="rtl"-->
+<!--                />-->
+
+
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+
+
+
+
+</RelativeLayout>

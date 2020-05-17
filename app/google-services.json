@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "302430919155",
+    "firebase_url": "https://kamvardinaexpress.firebaseio.com",
+    "project_id": "kamvardinaexpress",
+    "storage_bucket": "kamvardinaexpress.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302430919155:android:9321fc04716e5b2f281a86",
+        "android_client_info": {
+          "package_name": "com.example.kamvardinaexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302430919155-tif0qr57kv2jq1rjg2dh0lsg84jj5ae8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-tU8hmQY3cgyMhQLzamx5oPnJN42JuZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302430919155-tif0qr57kv2jq1rjg2dh0lsg84jj5ae8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

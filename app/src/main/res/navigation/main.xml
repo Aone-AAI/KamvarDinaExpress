@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/main_fragment">
+
+<!--    <fragment-->
+<!--        android:id="@+id/profileScreen"-->
+<!--        android:label="@string/fragment_profile"-->
+<!--        tools:layout="@layout/fragment_profile">-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/postsScreen"-->
+<!--        android:label="@string/fragment_posts"-->
+<!--        tools:layout="@layout/fragment_posts">-->
+<!--    </fragment>-->
+
+
+<!--    this is the main Fragment-->
+    <fragment
+        android:id="@+id/main_fragment"
+        android:name="com.example.kamvardinaexpress.main_fragment"
+        android:label="fragment_profile_fragment"
+        tools:layout="@layout/main_fragment" >
+
+
+        <action
+            android:id="@+id/action_main_fragment_to_login_fragment"
+            app:destination="@id/login_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/login_fragment"
+        android:name="com.example.kamvardinaexpress.loginFragment"
+        android:label="fragment_main_activity"
+        tools:layout="@layout/login_fragment"
+        >
+        <action
+            android:id="@+id/action_login_fragment_to_dashboard2"
+            app:destination="@id/dashboard2" />
+    </fragment>
+    <fragment
+        android:id="@+id/about_us_fargment"
+        android:name="com.example.kamvardinaexpress.about_us_fargment"
+        android:label="fragment_about_us_fargment"
+        tools:layout="@layout/fragment_about_us_fargment" />
+    <fragment
+        android:id="@+id/sending_message_fragment"
+        android:name="com.example.kamvardinaexpress.sending_message_fragment"
+        android:label="fragment_sending_message_fragment"
+        tools:layout="@layout/fragment_sending_message_fragment" />
+    <fragment
+        android:id="@+id/dashboard2"
+        android:name="com.example.kamvardinaexpress.Dashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+
+</navigation>
+
+<!--    android:name="com.example.kamvardinaexpress."-->
+
+<!--    app:destination="@id/dashboard"-->
+<!--    app:popExitAnim="@anim/fade_out"-->
+<!--    app:popEnterAnim="@anim/fade_in"-->
+<!--    app:exitAnim="@anim/side_in_left"-->
+<!--    app:enterAnim="@anim/side_in_right"-->

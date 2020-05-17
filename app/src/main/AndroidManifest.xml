@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kamvardinaexpress">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme2"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".OmorHesbi"></activity>
+        <activity android:name=".shekaiatAzAmaliatEjraei" />
+        <activity android:name=".EsteghlalKanonVokalaMosavab1334" />
+
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".QuestionsMotedavel" />
+        <activity android:name=".EdarehVarshekastegi" />
+        <activity android:name=".GhanonMasoliatmadani" />
+        <activity android:name=".GhanonEsfesarieh" />
+        <activity android:name=".masoliatmadaniDAHHASHTAD" />
+        <activity android:name=".ghanonoMasoliatmadani" />
+        <activity android:name=".lawyerLawAsli" />
+        <activity android:name=".EsteghlalkanonVokala" />
+        <activity android:name=".lawyerlawAkhzeparvaneh" />
+        <activity android:name=".lawyerlawKarshenasan" />
+        <activity
+            android:name=".ezdevahmardanbaavareha"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ghireshiaa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hemaiatkhanevadeh"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ghaiemiat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kodakhaibisarparst"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".roshdeMoteahlin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".khiant"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".egraiemahkomiat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sedghdarmani"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ehdaiejanin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mohasebehArzeshMehrieh_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Thabtekhteraa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".thabtShekat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".thabtAmalakvaAmval"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ThatAhval"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".daftarAsnadRasmi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bimeh_ghanonOmomi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".daftarAvalWorkLaw_Omomi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BimehBiakri_ghanonOmomi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GhaonoOmomiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ghanonMogazatvaaslah_keifari"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Aeindadrasikeifari_keifari"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bazdaradeh_keifari"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dianat_keifari"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gheasa_keifari"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hodod_keifari"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".koliat_keifari"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ghanonMogazatEslami_keifari"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AeinDadrasiMadani_madani"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".amvalmadeh_madani"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".amvalvaashkhas_madani"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ersvavasiat_madani"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mohgadameh_madani"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HoghoghiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RouhaniActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NavadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pressTvActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GhanonCheck"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TegaratElectronic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GhanonTegaratActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sana_site_Sabtname"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sana_site_Eblagh"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity_sana_Vokala"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sana_site_etelaa_rasani_ashkhas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TabnakActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Farse_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ISNA_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MizansiteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KamvarDinaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mehrieh_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AeinNameDavari_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Davary_Activity"
+            android:screenOrientation="portrait" /> <!-- android:windowSoftInputMode="stateHidden" -->
+        <activity
+            android:name=".lawyer_law"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".jaza_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KarshenasiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".nimOrsh_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Estekhdam_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Work_Law_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".maliat_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".militry_law"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tegarat_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".madani_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ghanon_Assasi_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Registry_law_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Family_law_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

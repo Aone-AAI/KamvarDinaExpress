@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registry_law_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ghanon_tegarat"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/custombutton"
+                android:text="ثبت اسناد و املاک"
+                android:textAllCaps="false"
+                android:textColor="#D81B60"
+                android:onClick="thabtAsnad"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.569"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toTopOf="@+id/guideline3"
+                app:layout_constraintVertical_bias="0.06"
+                tools:ignore="OnClick"
+                android:layout_marginTop="65dp"
+                android:layout_gravity="center"/>
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:barrierDirection="left" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.09" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.91" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.05" />
+
+            <Button
+                android:id="@+id/tegarat_electronic"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="28dp"
+                android:textColor="#D81B60"
+                android:onClick="ahvalThabt"
+                android:text="ثبت احوال"
+                android:textAllCaps="false"
+                android:clickable="true"
+                android:background="@drawable/custombutton"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.522"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/ghanon_tegarat"
+                tools:ignore="OnClick"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="28dp"
+                android:text="قوانین ثبت شرکت"
+                android:background="@drawable/custombutton"
+                android:clickable="true"
+                android:onClick="sherkatThabt"
+                android:textColor="#D81B60"
+                app:layout_constraintBottom_toTopOf="@+id/button2"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/tegarat_electronic"
+                tools:ignore="OnClick"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+
+                android:text="قانون ثبت اختراعات ، طرح های صنعتی و علائم تجاری"
+                android:background="@drawable/custombutton"
+                android:clickable="true"
+                android:onClick="ekhteraa"
+                android:textColor="#D81B60"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                tools:ignore="OnClick"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="28dp"
+                android:text="دفتر اسناد رسمی"
+                android:background="@drawable/custombutton"
+                android:clickable="true"
+                android:onClick="daftarAsnadRasmi"
+                android:textColor="#D81B60"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/button2"
+                tools:ignore="OnClick"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="28dp"
+                android:text="آئین نامه اجرای مفاد اسناد رسمی لازم الاجرا و طرز رسیدگی به شکایت از عملیات اجرائی"
+                android:background="@drawable/custombutton"
+                android:clickable="true"
+                android:onClick="shekaiatAzAmaliatEjraei"
+                android:textColor="#D81B60"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/button2"
+                tools:ignore="OnClick"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
