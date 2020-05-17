@@ -29,6 +29,8 @@ public class main_fragment extends Fragment {
 
     Context context;
 
+
+    int PES;
     private RecyclerView recyclerView;
     private ArrayList<ghanon> imageModelArrayList;
     private ghanonAdapter adapter;
